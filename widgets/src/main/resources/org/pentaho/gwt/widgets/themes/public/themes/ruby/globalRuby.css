@@ -9489,3 +9489,22 @@ body.bootstrap .modal.confirmationDialog .dialog div.body {
 }
 
 /* endregion */
+
+/* region Email Groups */
+
+#emailGroupsTabContainer .searchBox{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+#emailGroupsTabContainer .clearSearchField{
+  position: absolute;
+  right: 3px;
+  background-image: url('images/remove.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+/* endregion */
